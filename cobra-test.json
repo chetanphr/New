@@ -2,8 +2,9 @@
     {
         "name": "cobra",
         "image": "ampush/cobra:${tag}",
-        "cpu": 100,
-        "memory": 100,
+        "cpu": 200,
+        "memory": 300,
+	"memoryReservation": 280,
         "essential": true,
         "portMappings": [
             {
