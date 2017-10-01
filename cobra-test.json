@@ -4,6 +4,7 @@
         "image": "ampush/cobra:${tag}",
         "cpu": 200,
         "memory": 300,
+        "memory": 100,
         "essential": true,
         "portMappings": [
             {
