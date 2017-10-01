@@ -5,6 +5,7 @@
         "cpu": 200,
         "memory": 300,
 	"memoryReservation": 280,
+	"memoryReservation": 280,
         "essential": true,
         "portMappings": [
             {
