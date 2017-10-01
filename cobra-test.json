@@ -1,23 +1,23 @@
 [
-    {
-        "name": "cobra",
-        "image": "ampush/cobra:${tag}",
-        "cpu": 200,
-        "memory": 300,
-        "memory": 100,
-        "memoryReservation": 280,
-        "essential": true,
-        "portMappings": [
-            {
-                "containerPort": 80
-            }
-        ],
-        "logConfiguration": {
-            "logDriver": "${logging_facility}",
-            "options":
-            {
-                ${logging_options}
-            }
-        }
-    }
+{
+	"name": "cobra",
+		"image": "ampush/cobra:${tag}",
+		"cpu": 200,
+		"memory": 300,
+		"memory": 100,
+		"memoryReservation": 280,
+		"essential": true,
+		"portMappings": [
+		{
+			"containerPort": 80
+		}
+		],
+		"logConfiguration": {
+			"logDriver": "${logging_facility}",
+			"options":
+			{
+				${logging_options}
+			}
+		}
+}
 ]
