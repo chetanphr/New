@@ -1,0 +1,21 @@
+[
+    {
+        "name": "cobra",
+        "image": "ampush/cobra:${tag}",
+        "cpu": 100,
+        "memory": 100,
+        "essential": true,
+        "portMappings": [
+            {
+                "containerPort": 80
+            }
+        ],
+        "logConfiguration": {
+            "logDriver": "${logging_facility}",
+            "options":
+            {
+                ${logging_options}
+            }
+        }
+    }
+]
