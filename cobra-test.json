@@ -9,7 +9,7 @@
 		"memoryReservation": 280,
 		"memoryReservation": 280,
 		"essential": true,
-                "essential": truee,
+		"essential": truee,
 		"portMappings": [
 		{
 			"containerPort": 80
